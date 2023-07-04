@@ -1,0 +1,13 @@
+.perfilcontainer img{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    width: 250px;
+    border-radius: 20%;}
+.perfilcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, red, rgba(175, 122, 180, 0.171));
+   }

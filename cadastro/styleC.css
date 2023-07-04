@@ -1,0 +1,83 @@
+.formulario nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .formulario nav li {
+    float: left;
+  }
+  
+  .formulario  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .formulario  nav li a:hover {
+    background-color: #111;
+  }
+  
+  .formulario  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .formulario form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgba(228, 228, 228, 0.295) ;
+    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+  }
+  
+  .formulario label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .formulario input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formulario input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .formulario .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+h2{
+    color: aliceblue;
+}
+body h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
